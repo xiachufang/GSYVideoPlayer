@@ -83,7 +83,14 @@ dependencies {
     implementation androidDependencies.support_v4
     implementation androidDependencies.design
 
-    implementation project(':gsyVideoPlayer')
+    //implementation project(':gsyVideoPlayer')
+    api "com.shuyu:gsyVideoPlayer-java:$gsyVideoVersion"
+    api "com.shuyu:GSYVideoPlayer-exo2:$gsyVideoVersion"
+    api "com.shuyu:gsyVideoPlayer-armv5:$gsyVideoVersion"
+    api "com.shuyu:gsyVideoPlayer-armv7a:$gsyVideoVersion"
+    api "com.shuyu:gsyVideoPlayer-arm64:$gsyVideoVersion"
+    api "com.shuyu:gsyVideoPlayer-x64:$gsyVideoVersion"
+    api "com.shuyu:gsyVideoPlayer-x86:$gsyVideoVersion"
 
     implementation dataDependencies.okhttpUtil
     implementation dataDependencies.okhttp
